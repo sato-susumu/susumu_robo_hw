@@ -10,7 +10,6 @@
 4. [コネクタ型番一覧](#コネクタ型番一覧)
 5. [Wago 221 レバーナットコネクタ](#wago-221-レバーナットコネクタ)
 6. [絶縁体の種類](#絶縁体の種類)
-7. [関連リンク](#関連リンク)
 
 ---
 
@@ -246,15 +245,4 @@
 | シリコン | -60°C ~ +200°C | 柔軟、耐熱性 |
 | PTFE (テフロン) | -70°C ~ +260°C | 最高耐熱、硬い |
 
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [PowerStream Wire Size Chart](https://www.powerstream.com/Wire_Size.htm) | AWG規格表 |
-| [Engineering Toolbox - Wire Gauges](https://www.engineeringtoolbox.com/wire-gauges-d_419.html) | 線径・電流表 |
-| [JST Connectors](https://www.jst.com/) | JST公式 |
-| [ハーネスビルドキット](https://shop.odriverobotics.com/products/harness-build-kit-for-odrive-s1) | ODrive公式配線キット |
-| [WAGO 221 Series](https://www.wago.com/us/lp-221) | Wago レバーナット公式 |
 | [Wago 221 アソートセット (Amazon)](https://www.amazon.com/Compact-Splicing-Connector-Assortment-221-2401/dp/B0BRBPSM9Q/) | 購入リンク |

@@ -168,23 +168,6 @@
 
 > **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html), [BLUETTI LiFePO4 Voltage Chart](https://www.bluettipower.eu/blogs/news/lifepo4-voltage-chart), [LiTime 24V 50Ah製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
 
-### Li-ion / LiPo バッテリー
-
-| バッテリー | セル | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
-|------------|------|----------|----------------|----------------|
-| DeWalt 20V | 5S Li-ion | 18.5V | 16.5V | 21.25V |
-| 6S LiPo | 6S | 22.2V | 19.8V | 25.5V |
-| 7S LiPo | 7S | 25.9V | 23.1V | 29.75V |
-| 10S LiPo | 10S | 37.0V | 33.0V | 42.5V |
-| 12S LiPo | 12S | 44.4V | 39.6V | 50.5V (上限) |
-
-> **Li-ion/LiPo 計算式**:
->
-> - 低電圧トリップ = 3.3V × セル数 (約10% SOC)
-> - 過電圧トリップ = 4.25V × セル数 (最大50.5V)
-
-### LiFePO4 バッテリー
-
 | バッテリー | セル | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
 |------------|------|----------|----------------|----------------|
 | **LiTime 24V 50Ah** | 8S LiFePO4 | 25.6V | 24.0V | 29.2V |

@@ -11,8 +11,6 @@
 5. [共通仕様](#共通仕様)
 6. [動作モード](#動作モード)
 7. [バッテリー別推奨設定](#バッテリー別推奨設定)
-8. [接続方法](#接続方法)
-9. [関連リンク](#関連リンク)
 
 ---
 
@@ -200,18 +198,3 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 > - LiFePO4 カットオフ = 3.0V × セル数 (約10% SOC)
 > - 再接続電圧 = カットオフ電圧 + 1.5~2V
 
----
-
-
-
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [OONO 18V 30A (Amazon.com)](https://www.amazon.com/18V-30Amp-Voltage-Disconnect-Module/dp/B08H14XTZ8) | 18V製品購入ページ |
-| [OONO 18V 30A (Amazon.co.jp)](https://www.amazon.co.jp/OONO-18V-30Amp-LVD-%E4%BD%8E%E9%9B%BB%E5%9C%A7%E5%88%87%E6%96%AD%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/dp/B08H14XTZ8) | 18V製品 (日本) |
-| [CZH-LABS 24V 30A (Amazon.com)](https://www.amazon.com/CZH-LABS-Electronics-Salon-Voltage-Disconnect-Protect/dp/B018TV7NQU) | 24V製品購入ページ |
-| [CZH-LABS 24V 30A (公式)](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life) | 24V製品公式ページ |
-| [CZH-LABS 24V製品一覧](https://www.czh-labs.com/collections/24v-30amp-565) | 24V製品コレクション |

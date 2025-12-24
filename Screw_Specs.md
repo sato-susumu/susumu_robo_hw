@@ -12,7 +12,6 @@
 6. [ナット寸法](#ナット寸法)
 7. [下穴径・タップドリル](#下穴径タップドリル)
 8. [BotWheel Explorerで使用するネジ](#botwheel-explorerで使用するネジ)
-9. [関連リンク](#関連リンク)
 
 ---
 
@@ -211,13 +210,3 @@
 | 5mm | M6 六角穴付き |
 | 6mm | M8 六角穴付き |
 
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [ISO Metric Screw Thread - Wikipedia](https://en.wikipedia.org/wiki/ISO_metric_screw_thread) | ISOメトリックネジ規格 |
-| [Metric Thread Chart - Accu](https://www.accu.co.uk/p/117-iso-metric-thread-dimensions) | ネジ寸法表 |
-| [Socket Head Cap Screw - Engineers Edge](https://www.engineersedge.com/hardware/_metric_socket_head_cap_screws_14054.htm) | 六角穴付きボルト寸法 |
-| [Fastener Mart - Metric Fasteners](https://www.fastenermart.com/understanding-metric-fasteners.html) | メトリックファスナー解説 |

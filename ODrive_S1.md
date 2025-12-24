@@ -16,7 +16,6 @@
    - [J16/J17 CANヘッダー](#j16j17-canヘッダー)
    - [GPIO特性](#gpio特性)
 6. [電圧保護設定](#電圧保護設定)
-7. [リンク集](#リンク集)
 
 ---
 
@@ -250,17 +249,3 @@ odrv0.config.dc_bus_voltage_feedback_ramp_end = 27.0    # 公称電圧+6V
 odrv0.save_configuration()
 ```
 
----
-
-# リンク集
-
-| リンク | 説明 |
-|--------|------|
-| [ODrive S1 データシート](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html) | S1の詳細仕様・ピンアウト |
-| [ODrive S1 製品ページ](https://shop.odriverobotics.com/products/odrive-s1) | 購入ページ |
-| [ハーネスビルドキット](https://shop.odriverobotics.com/products/harness-build-kit-for-odrive-s1) | 配線部品キット |
-| [ハードウェア設定](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html) | 電圧・ブレーキ設定 |
-| [CAN Bus ガイド](https://docs.odriverobotics.com/v/latest/guides/can-guide.html) | CANプロトコル詳細 |
-| [UART ガイド](https://docs.odriverobotics.com/v/latest/manual/uart.html) | シリアル通信詳細 |
-| [odrivetool](https://docs.odriverobotics.com/v/latest/interfaces/odrivetool.html) | CLI設定ツール |
-| [Web GUI](https://gui.odriverobotics.com/) | ブラウザベース設定ツール |

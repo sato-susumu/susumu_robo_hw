@@ -10,7 +10,6 @@
 4. [AWGとmm²の対応表](#awgとmm²の対応表)
 5. [2本用ツインフェルール](#2本用ツインフェルール)
 6. [BotWheel Explorerでの使用](#botwheel-explorerでの使用)
-7. [関連リンク](#関連リンク)
 
 ---
 
@@ -167,14 +166,3 @@ ODrive S1のスクリュー端子接続に推奨:
 | ブレーキ抵抗器 | 14-16 AWG | 1.5-2.5 mm² |
 | バッテリーメイン | 10-12 AWG | 4.0-6.0 mm² |
 
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [Ferrules Direct - Documents](https://www.ferrulesdirect.com/pages/ferrule-documents) | カラーコード表・サイズ表 |
-| [Knipex Ferrule Overview (PDF)](https://web-assets.knipex.com/sites/default/files/documents/AEH-HUELSEN-UBERSICHT_EN_V01_RZ20210624.PDF) | 寸法詳細 |
-| [American Electrical - Ferrule Codes](https://www.americanelectrical.com/blog/cracking-the-codes-for-insulated-wire-ferrules/) | DIN/T/W コード解説 |
-| [DigiKey - Crimp Wire Ferrules](https://www.digikey.com/en/product-highlight/a/american-electrical/crimp-wire-ferrules) | 製品カタログ |
-| [Phoenix Contact Ferrules (PDF)](https://dam-mdc.phoenixcontact.com/asset/156443151564/d8ed400fa93d944a8c496c0a1d791928/Ferrules_whitepaper_U003124B_FINAL.pdf) | 技術資料 |

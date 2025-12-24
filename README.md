@@ -15,9 +15,9 @@
 
 ### 電源・電気系
 
-- [バッテリー技術資料](Battery.md) - バッテリー仕様、電圧設定、ヒューズ
+- [バッテリー技術資料](Battery.md) - LiTime 24V LiFePO4仕様、電圧設定、ヒューズ
 - [低電圧カットオフモジュール (LVD) 技術資料](LowVoltageDisconnect.md) - 過放電保護モジュール (18V/24V)
-- [DC-DCコンバータ技術資料](DCDC_Converter.md) - Raspberry Pi用電源変換
+- [DC-DCコンバータ技術資料](DCDC_Converter.md) - Raspberry Pi用電源変換、USB-PD
 
 ### 配線・端子
 
@@ -26,10 +26,8 @@
 
 ### 機械部品
 
-- [ネジ規格技術資料](Screw_Specs.md) - メトリックネジ寸法、トルク目安
+- [ネジ規格技術資料](Screw_Specs.md) - メトリックネジ寸法
 
----
+### その他
 
-## 旧ドキュメント (統合版)
-
-- [ODrive S1 / BotWheel Explorer 技術資料](ODrive_BotWheel_Explorer.md) - 全情報を含む統合ドキュメント
+- [ASUS ROG Flow X13 充電スペック](flow_x13.md) - USB-C PD充電仕様

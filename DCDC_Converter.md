@@ -10,7 +10,6 @@
    - [Coolgear CG-PD200MAX (USB-PD対応)](#coolgear-cg-pd200max-usb-pd対応)
 3. [Raspberry Pi用電源変換](#raspberry-pi用電源変換)
 4. [配線例](#配線例)
-5. [関連リンク](#関連リンク)
 
 ---
 
@@ -192,13 +191,3 @@ USB-C PD出力 (100W/ポート)
 Raspberry Pi 5 / ノートPC等
 ```
 
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [5V Buckコンバータ (Amazon)](https://www.amazon.com/Converter-Charging-Compatible-Raspberry-Cellphone/dp/B0BCP86XPY) | Raspberry Pi 4向け |
-| [Coolgear CG-PD200MAX](https://www.coolgear.com/product/chargeit-mini-200w-dual-type-c-pd-charger-100w-output-each-port-24v-input) | USB-PD 200W出力 |
-| [LiTime 24Vバッテリー](https://jp.litime.com/collections/litime-24v-batteries) | 入力電源オプション |
-| [Raspberry Pi 4 Specifications](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/) | 電源要件 |

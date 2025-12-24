@@ -208,13 +208,3 @@ pip3 install python-can
 
 > **参考**: [ros_odrive (GitHub)](https://github.com/odriverobotics/ros_odrive)
 
----
-
-## 関連リンク
-
-| リンク | 説明 |
-|--------|------|
-| [Raspberry Pi 公式](https://www.raspberrypi.com/) | 公式サイト |
-| [Raspberry Pi OS](https://www.raspberrypi.com/software/) | OSダウンロード |
-| [GPIO Pinout](https://pinout.xyz/) | GPIOピン配置 |
-| [ros_odrive](https://github.com/odriverobotics/ros_odrive) | ODrive ROS2パッケージ |
