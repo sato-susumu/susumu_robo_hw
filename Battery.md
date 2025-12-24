@@ -166,28 +166,49 @@
 
 ## バッテリー別電圧設定早見表
 
-> **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html)
+> **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html), [BLUETTI LiFePO4 Voltage Chart](https://www.bluettipower.eu/blogs/news/lifepo4-voltage-chart), [LiTime 24V 50Ah製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
+
+### Li-ion / LiPo バッテリー
 
 | バッテリー | セル | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
 |------------|------|----------|----------------|----------------|
-| DeWalt 20V | 5S | 18.5V | 16.5V | 21.25V |
+| DeWalt 20V | 5S Li-ion | 18.5V | 16.5V | 21.25V |
 | 6S LiPo | 6S | 22.2V | 19.8V | 25.5V |
 | 7S LiPo | 7S | 25.9V | 23.1V | 29.75V |
 | 10S LiPo | 10S | 37.0V | 33.0V | 42.5V |
 | 12S LiPo | 12S | 44.4V | 39.6V | 50.5V (上限) |
-| 24V鉛蓄電池 | - | 24V | 22V | 28V |
-| 48V鉛蓄電池 | - | 48V | 44V | 50.5V (上限) |
 
-> **計算式**:
+> **Li-ion/LiPo 計算式**:
 >
-> - 低電圧トリップ = 3.3V × セル数
+> - 低電圧トリップ = 3.3V × セル数 (約10% SOC)
 > - 過電圧トリップ = 4.25V × セル数 (最大50.5V)
+
+### LiFePO4 バッテリー
+
+| バッテリー | セル | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
+|------------|------|----------|----------------|----------------|
+| **LiTime 24V 50Ah** | 8S LiFePO4 | 25.6V | 24.0V | 29.2V |
+| 12V LiFePO4 | 4S LiFePO4 | 12.8V | 12.0V | 14.6V |
+| 48V LiFePO4 | 16S LiFePO4 | 51.2V | 48.0V | 50.5V (上限) |
+
+> **LiFePO4 計算式**:
+>
+> - 公称電圧 = 3.2V × セル数
+> - 低電圧トリップ = 3.0V × セル数 (約10% SOC)
+> - 過電圧トリップ = 3.65V × セル数 (最大50.5V)
+
+### 鉛蓄電池
+
+| バッテリー | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
+|------------|----------|----------------|----------------|
+| 24V鉛蓄電池 | 24V | 22V | 28V |
+| 48V鉛蓄電池 | 48V | 44V | 50.5V (上限) |
 
 ---
 
 ## 電圧関連まとめ
 
-> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [Raspberry Pi 4 Model B Specifications](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [Raspberry Pi 4 Model B Specifications](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/), [LiTime 24V 50Ah製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
 
 システム全体の電圧に関する情報を一覧にまとめます。
 
@@ -199,9 +220,12 @@
 | **ODrive S1 ロジック電源** | 10-14V | オプション、12V IN |
 | **絶縁IO電源 (V+ ISO)** | 3.3V または 5V | 外部から供給 |
 | **センサー電源 (+5V)** | 5V | J11 Pin18から出力 |
-| **DeWalt バッテリー満充電** | 21.0V | 4.2V × 5セル |
+| **DeWalt バッテリー満充電** | 21.0V | 4.2V × 5セル (Li-ion) |
 | **DeWalt バッテリー公称** | 18-20V | 通常使用範囲 |
 | **DeWalt バッテリー低電圧** | 16.5V | 3.3V × 5セル |
+| **LiTime 24V 満充電** | 29.2V | 3.65V × 8セル (LiFePO4) |
+| **LiTime 24V 公称** | 25.6V | 3.2V × 8セル |
+| **LiTime 24V 低電圧** | 24.0V | 3.0V × 8セル (約10% SOC) |
 | **Raspberry Pi** | 5V | DC-DC変換必要 |
 
 ---
