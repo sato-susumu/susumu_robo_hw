@@ -101,6 +101,8 @@ DIN (ドイツ工業規格) 46228 Part 4 に基づく色分けです。
 
 ## AWGとmm²の対応表
 
+> **引用元**: [American Wire Gauge - Wikipedia](https://en.wikipedia.org/wiki/American_wire_gauge), [DIN 46228 Ferrule Standards](https://www.ferrulesdirect.com/pages/ferrule-documents)
+
 | AWG | mm² (公称) | mm² (実際) | 推奨フェルール |
 |-----|------------|------------|----------------|
 | 26 | 0.14 | 0.13 | 0.14 mm² |
@@ -120,6 +122,8 @@ DIN (ドイツ工業規格) 46228 Part 4 に基づく色分けです。
 
 ## 2本用ツインフェルール
 
+> **引用元**: [Knipex Twin Ferrules](https://www.knipex.com/), [Ferrules Direct - Twin Ferrules](https://www.ferrulesdirect.com/pages/ferrule-documents)
+
 2本の線を1つのフェルールで束ねる場合に使用します。
 
 ### サイズ選定
@@ -138,6 +142,8 @@ DIN (ドイツ工業規格) 46228 Part 4 に基づく色分けです。
 
 ### 剥き長さ目安
 
+> **引用元**: [Knipex DIN 46228/4 Specifications](https://web-assets.knipex.com/sites/default/files/documents/AEH-HUELSEN-UBERSICHT_EN_V01_RZ20210624.PDF) (L2金属部長さに対応)
+
 | フェルールサイズ | 剥き長さ (mm) |
 |-----------------|---------------|
 | 0.25-2.5 mm² | 8 mm |
@@ -149,6 +155,8 @@ DIN (ドイツ工業規格) 46228 Part 4 に基づく色分けです。
 ---
 
 ## BotWheel Explorerでの使用
+
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [BotWheel Explorer REV-B Hardware Build (Notion)](https://odriverobotics.notion.site/Botwheel-Explorer-REV-B-Hardware-Build-0eb19815a7b847a2a037a4246647d13c)
 
 ODrive S1のスクリュー端子接続に推奨:
 

@@ -40,6 +40,8 @@
 
 ## 電圧降下の目安
 
+> **引用元**: [American Wire Gauge Chart - PowerStream](https://www.powerstream.com/Wire_Size.htm) (抵抗値より計算)
+
 | AWG | 10A時の電圧降下 (1m往復) | 5A時の電圧降下 (1m往復) |
 |-----|--------------------------|-------------------------|
 | 12 | 0.10V | 0.05V |
@@ -52,6 +54,8 @@
 ---
 
 ## 用途別推奨ケーブル
+
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [BotWheel Explorer Required Components (Notion)](https://odriverobotics.notion.site/Botwheel-Explorer-Required-Components-c154381af2354fc185e7c71082be498e)
 
 | 用途 | 推奨AWG | 絶縁体 | 備考 |
 |------|---------|--------|------|
@@ -70,6 +74,8 @@
 ---
 
 ## コネクタ型番一覧
+
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [Harness Build Kit for ODrive S1](https://shop.odriverobotics.com/products/harness-build-kit-for-odrive-s1)
 
 ### ODrive S1 メインコネクタ
 
@@ -126,6 +132,8 @@
 
 ### 221-4xx シリーズ (標準)
 
+> **引用元**: [WAGO 221 Series Data Sheet](https://www.wago.com/us/lp-221)
+
 | 型番 | 極数 | 寸法 (W×D×H) | 重量 | ピッチ |
 |------|------|--------------|------|--------|
 | 221-412 | 2極 | 13.1 × 18.6 × 8.3 mm | 1.7g | 5.6mm |
@@ -150,6 +158,8 @@
 
 ### 221-6xx シリーズ (10AWG対応)
 
+> **引用元**: [WAGO 221 Series Data Sheet](https://www.wago.com/us/lp-221)
+
 | 型番 | 極数 | 寸法 (W×D×H) | 重量 | ピッチ |
 |------|------|--------------|------|--------|
 | 221-612 | 2極 | 16.0 × 21.1 × 10.1 mm | 3.0g | 7.0mm |
@@ -173,6 +183,8 @@
 | 細より線 (Fine-stranded) | 0.5 - 6.0 mm² | 20 - 10 AWG |
 
 ### 221-24xx シリーズ (インライン)
+
+> **引用元**: [WAGO 221 Series Data Sheet](https://www.wago.com/us/lp-221)
 
 ケーブル同士を直線的に接続するインラインタイプのコネクタです。
 
@@ -201,6 +213,8 @@
 
 ### 共通仕様
 
+> **引用元**: [WAGO 221 Series Data Sheet](https://www.wago.com/us/lp-221)
+
 | 項目 | 仕様 |
 |------|------|
 | 接続方式 | CAGE CLAMP (ケージクランプ) |
@@ -212,6 +226,8 @@
 
 ### BotWheel Explorerでの用途
 
+> **引用元**: [WAGO 221-4xx Specifications](https://www.wago.com/us/lp-221), [BotWheel Explorer Required Components (Notion)](https://odriverobotics.notion.site/Botwheel-Explorer-Required-Components-c154381af2354fc185e7c71082be498e)
+
 | 用途 | 推奨型番 | 備考 |
 |------|----------|------|
 | 電源分岐 | 221-412 / 221-413 | 22-24AWG |
@@ -221,6 +237,8 @@
 ---
 
 ## 絶縁体の種類
+
+> **引用元**: [Wire Insulation Types - Engineering Toolbox](https://www.engineeringtoolbox.com/wire-insulation-d_1305.html)
 
 | 絶縁体 | 温度範囲 | 特徴 |
 |--------|----------|------|

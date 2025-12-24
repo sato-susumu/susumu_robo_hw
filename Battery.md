@@ -20,6 +20,8 @@
 
 ## 推奨電源仕様
 
+> **引用元**: [BotWheel Explorer Kit - ODrive Shop](https://shop.odriverobotics.com/products/botwheel-explorer), [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html)
+
 | 項目 | 仕様 |
 |------|------|
 | 電圧範囲 | 12-48V (最大50.5V) |
@@ -31,6 +33,8 @@
 
 ## DeWalt 20Vバッテリー仕様
 
+> **引用元**: [DeWalt 20V MAX Battery System](https://www.dewalt.com/systems/cordless-platforms/20v), [BotWheel Explorer Required Components (Notion)](https://odriverobotics.notion.site/Botwheel-Explorer-Required-Components-c154381af2354fc185e7c71082be498e)
+
 | 項目 | 仕様 |
 |------|------|
 | セル構成 | 5S (5直列) |
@@ -41,6 +45,8 @@
 ### DeWalt 20V バッテリーアダプター
 
 > **購入リンク**: [Amazon](https://www.amazon.com/dp/B0CDGFXVLK)
+>
+> **引用元**: [Amazon製品ページ](https://www.amazon.com/dp/B0CDGFXVLK)
 
 | 項目 | 仕様 |
 |------|------|
@@ -50,6 +56,8 @@
 | 材質 | 耐熱ABS |
 
 ### キット内容
+
+> **引用元**: [Amazon製品ページ](https://www.amazon.com/dp/B0CDGFXVLK)
 
 | 部品 | 数量 |
 |------|------|
@@ -72,6 +80,8 @@
 
 #### 基本仕様
 
+> **引用元**: [LiTime 24V 50Ah 製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
+
 | 項目 | 仕様 |
 |------|------|
 | 容量 | 1280Wh |
@@ -82,12 +92,16 @@
 
 #### 対応・認証
 
+> **引用元**: [LiTime 24V 50Ah 製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
+
 | 項目 | 内容 |
 |------|------|
 | 対応モーター | 24V 70~100lb エレキモーター |
 | 認証 | PSE, UN38.3, IEC62619 |
 
 #### 保護機能
+
+> **引用元**: [LiTime 24V 50Ah 製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
 
 | 保護機能 | 内容 |
 |----------|------|
@@ -101,6 +115,8 @@
 
 #### Bluetooth機能
 
+> **引用元**: [LiTime 24V 50Ah 製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
+
 | 項目 | 仕様 |
 |------|------|
 | Bluetooth | 5.0 |
@@ -108,6 +124,8 @@
 | 確認可能情報 | 充放電状態、残量、サイクル回数 |
 
 #### 価格
+
+> **引用元**: [LiTime 24V 50Ah 製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth) (2024年時点の価格、変動あり)
 
 | 項目 | 価格 |
 |------|------|
@@ -129,6 +147,8 @@
 ### 比較: LiTime 24V 25Ah (電動工具用)
 
 > **購入リンク**: [LiTime公式](https://jp.litime.com/products/litime-24v25ah)
+>
+> **引用元**: [LiTime 24V 50Ah](https://jp.litime.com/products/24v-50ah-bluetooth), [LiTime 24V 25Ah](https://jp.litime.com/products/litime-24v25ah) (2024年時点)
 
 | 項目 | 24V 50Ah | 24V 25Ah |
 |------|----------|----------|
@@ -145,6 +165,8 @@
 ---
 
 ## バッテリー別電圧設定早見表
+
+> **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html)
 
 | バッテリー | セル | 公称電圧 | 低電圧トリップ | 過電圧トリップ |
 |------------|------|----------|----------------|----------------|
@@ -165,6 +187,8 @@
 
 ## 電圧関連まとめ
 
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [Raspberry Pi 4 Model B Specifications](https://www.raspberrypi.com/products/raspberry-pi-4-model-b/specifications/)
+
 システム全体の電圧に関する情報を一覧にまとめます。
 
 ### 電圧一覧表
@@ -184,6 +208,8 @@
 
 ## 電圧保護の流れ
 
+> **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html)
+
 ```
 バッテリー → ヒューズ (30A) → ODrive S1
                               ↓
@@ -197,6 +223,8 @@
 ---
 
 ## 電圧監視ポイント
+
+> **引用元**: [odrivetool - ODrive Documentation](https://docs.odriverobotics.com/v/latest/interfaces/odrivetool.html)
 
 | 監視項目 | 方法 | 備考 |
 |----------|------|------|

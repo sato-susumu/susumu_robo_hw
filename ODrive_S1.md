@@ -22,10 +22,12 @@
 
 ## 電気的仕様
 
+> **引用元**: [ODrive S1 Datasheet](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html), [ODrive S1 製品ページ](https://shop.odriverobotics.com/products/odrive-s1)
+
 | 項目 | 仕様 |
 |------|------|
 | 動作電圧 | 12-48V (最大50.5V) |
-| 連続電流 | 40A (ヒートスプレッダー使用推奨) |
+| 連続電流 | 40A (自由空気) / 80A (ヒートスプレッダー装着時) |
 | 連続出力 | 2kW |
 | PWM周波数 | 24kHz |
 | 制御ループ周波数 | 8kHz (電流制御ループ24kHz予定) |
@@ -33,6 +35,8 @@
 | ロジック電源入力 (オプション) | 10-14V |
 
 ## 物理的仕様
+
+> **引用元**: [ODrive S1 製品ページ](https://shop.odriverobotics.com/products/odrive-s1)
 
 | 項目 | 仕様 |
 |------|------|
@@ -44,6 +48,8 @@
 
 ## 通信インターフェース
 
+> **引用元**: [ODrive S1 Datasheet - ODrive Documentation](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html)
+
 | インターフェース | 仕様 |
 |------------------|------|
 | CAN | 2.0B @ 1Mbps (CAN-FD 5Mbps実験的サポート) |
@@ -54,6 +60,8 @@
 | アナログ入力 | 電圧入力による制御 |
 
 ## ブレーキ抵抗器
+
+> **引用元**: [ODrive S1 Datasheet - ODrive Documentation](https://docs.odriverobotics.com/v/latest/hardware/s1-datasheet.html)
 
 | 項目 | 仕様 |
 |------|------|
@@ -191,6 +199,8 @@
 ---
 
 # 電圧保護設定
+
+> **引用元**: [Hardware Configuration - ODrive Documentation](https://docs.odriverobotics.com/v/latest/manual/hardware-config.html)
 
 ## 電圧トリップレベル
 

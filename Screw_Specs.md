@@ -26,6 +26,8 @@
 
 ## メトリックネジの読み方
 
+> **引用元**: [ISO Metric Screw Thread - Wikipedia](https://en.wikipedia.org/wiki/ISO_metric_screw_thread)
+
 ### 表記例: M6×1.0×20
 
 | 記号 | 意味 | 例 |
@@ -40,6 +42,8 @@
 ---
 
 ## 標準並目ピッチ
+
+> **引用元**: [ISO Metric Screw Thread - Wikipedia](https://en.wikipedia.org/wiki/ISO_metric_screw_thread)
 
 | 呼び径 | 並目ピッチ (mm) | 細目ピッチ (mm) |
 |--------|-----------------|-----------------|
@@ -78,6 +82,8 @@
 
 ### 低頭六角穴付きボルト (DIN 7984)
 
+> **引用元**: [DIN 7984 Low Head Cap Screw](https://www.fastenermart.com/understanding-metric-fasteners.html)
+
 | 呼び径 | 頭径 D (mm) | 頭高さ H (mm) | 六角レンチ S (mm) |
 |--------|-------------|---------------|-------------------|
 | M3 | 5.5 | 1.65 | 2.0 |
@@ -89,6 +95,8 @@
 ---
 
 ## 六角ボルト (DIN 931/933 / ISO 4014)
+
+> **引用元**: [ISO 4014 Hex Head Bolt - Engineers Edge](https://www.engineersedge.com/hardware/standard_metric_hex_bolts_702.htm)
 
 ### 寸法表
 
@@ -107,6 +115,8 @@
 
 ## ナット寸法
 
+> **引用元**: [ISO 4032 Hex Nut - Engineers Edge](https://www.engineersedge.com/hardware/standard_metric_hex_nuts_702.htm)
+
 ### 六角ナット (DIN 934 / ISO 4032)
 
 | 呼び径 | 二面幅 s (mm) | 高さ m (mm) |
@@ -122,6 +132,8 @@
 
 ### ナイロンナット (ゆるみ止め)
 
+> **引用元**: [DIN 985 / ISO 10511 Nylon Insert Lock Nut](https://www.boltdepot.com/Product-Details.aspx?product=2048)
+
 | 呼び径 | 二面幅 s (mm) | 高さ m (mm) |
 |--------|---------------|-------------|
 | M3 | 5.5 | 4.0 |
@@ -133,6 +145,8 @@
 ---
 
 ## 下穴径・タップドリル
+
+> **引用元**: [Metric Tap Drill Chart - Engineers Edge](https://www.engineersedge.com/tap_metric.htm)
 
 ### 並目ネジ用
 
@@ -151,6 +165,8 @@
 > **計算式**: 下穴径 = 呼び径 - ピッチ
 
 ### バカ穴 (通し穴)
+
+> **引用元**: [ISO 273 Clearance Holes](https://www.accu.co.uk/p/117-iso-metric-thread-dimensions)
 
 | 呼び径 | 1級 (精密) | 2級 (普通) | 3級 (粗い) |
 |--------|------------|------------|------------|
@@ -175,6 +191,8 @@
 
 ### シャーシ組立 (参考)
 
+> **注意**: 以下は参考値です。実際の寸法は設計・製品によって異なります。
+
 | 用途 | ネジ規格 | 備考 |
 |------|----------|------|
 | ODrive S1固定 | M3 | エンクロージャ使用時 |
@@ -182,6 +200,8 @@
 | バッテリーホルダー | M4-M5 | 設計による |
 
 ### 推奨六角レンチセット
+
+> **引用元**: [ISO 4762 Socket Head Cap Screw](https://www.engineersedge.com/iso_socket_head_screw.htm) (六角穴寸法Sに対応)
 
 | サイズ | 主な用途 |
 |--------|----------|

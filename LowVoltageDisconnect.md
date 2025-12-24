@@ -18,6 +18,8 @@
 
 ## 概要
 
+> **引用元**: [CZH-LABS LVD Products](https://www.czh-labs.com/collections/24v-30amp-565), [OONO LVD (Amazon.com)](https://www.amazon.com/18V-30Amp-Voltage-Disconnect-Module/dp/B08H14XTZ8)
+
 LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を防ぐため、電圧が設定値以下になると自動で負荷を遮断する保護デバイスです。
 
 
@@ -25,6 +27,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 ---
 
 ## 製品ラインナップ
+
+> **引用元**: [OONO 18V 30A (Amazon.com)](https://www.amazon.com/18V-30Amp-Voltage-Disconnect-Module/dp/B08H14XTZ8), [CZH-LABS 24V 30A (公式)](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life)
 
 | 製品 | 対応電圧 | 定格電流 | 推奨バッテリー |
 |------|----------|----------|----------------|
@@ -41,6 +45,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 
 ### 基本仕様
 
+> **引用元**: [OONO 18V 30A LVD (Amazon.com)](https://www.amazon.com/18V-30Amp-Voltage-Disconnect-Module/dp/B08H14XTZ8)
+
 | 項目 | 仕様 |
 |------|------|
 | 動作電圧範囲 | DC 9-28V |
@@ -49,6 +55,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 | LED表示 | 緑/赤 デュアルカラー |
 
 ### 電圧設定 (DIPスイッチ)
+
+> **引用元**: [OONO 18V 30A LVD (Amazon.com)](https://www.amazon.com/18V-30Amp-Voltage-Disconnect-Module/dp/B08H14XTZ8)
 
 | 項目 | 説明 |
 |------|------|
@@ -64,6 +72,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 
 ### DeWalt 20V バッテリー用推奨設定
 
+> **引用元**: [Battery University - Lithium-ion Discharge Guidelines](https://batteryuniversity.com/article/bu-808-how-to-prolong-lithium-based-batteries) (3.3V/セル推奨値)
+
 | 項目 | 設定値 | 備考 |
 |------|--------|------|
 | カットオフ電圧 | 16.5V | 3.3V × 5セル |
@@ -76,6 +86,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 > **購入リンク**: [Amazon.com](https://www.amazon.com/CZH-LABS-Electronics-Salon-Voltage-Disconnect-Protect/dp/B018TV7NQU) | [CZH-LABS公式](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life)
 
 ### 基本仕様
+
+> **引用元**: [CZH-LABS 24V 30A LVD (公式)](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life)
 
 | 項目 | 仕様 |
 |------|------|
@@ -94,6 +106,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 | 再接続電圧 | DIPスイッチで設定 (プログラマブル) |
 
 ### LiTime 24V LiFePO4 バッテリー用推奨設定
+
+> **引用元**: [BLUETTI LiFePO4 Voltage Chart](https://www.bluettipower.eu/blogs/news/lifepo4-voltage-chart), [LiTime 24V 50Ah製品ページ](https://jp.litime.com/products/24v-50ah-bluetooth)
 
 | 項目 | 設定値 | 備考 |
 |------|--------|------|
@@ -125,6 +139,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 
 ## 共通仕様
 
+> **引用元**: [CZH-LABS LVD 24V 30A (公式)](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life)
+
 ### 動作タイミング
 
 | 状態 | 動作 |
@@ -145,6 +161,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 
 ## 動作モード
 
+> **引用元**: [CZH-LABS LVD 24V 30A (公式)](https://czh-labs.com/products/czh-labs-low-voltage-disconnect-module-lvd-24v-30a-protect-prolong-battery-life)
+
 ロッカースイッチで動作モードを切り替えます。
 
 | モード | 説明 | 用途 |
@@ -158,6 +176,8 @@ LVD (Low Voltage Disconnect) モジュールは、バッテリーの過放電を
 ---
 
 ## バッテリー別推奨設定
+
+> **引用元**: [Battery University - Lithium-ion Safety Concerns](https://batteryuniversity.com/article/bu-304a-safety-concerns-with-li-ion), [BLUETTI LiFePO4 Voltage Chart](https://www.bluettipower.eu/blogs/news/lifepo4-voltage-chart)
 
 ### 18V LVD モジュール用
 
