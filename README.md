@@ -12,6 +12,7 @@
 - [ODrive S1 技術資料](ODrive_S1.md) - ODrive S1モータコントローラのスペック、ピンアウト、設定
 - [BotWheel Explorer 技術資料](BotWheel_Explorer.md) - BotWheel Explorerキットの仕様、組立情報
 - [Raspberry Pi 4 技術資料](RaspberryPi4.md) - 電源仕様、GPIO、CAN設定
+- [Livox MID-360 技術資料](Livox_MID360.md) - 3D LiDARセンサ仕様、点群・測距・インターフェース
 
 ### 電源・電気系
 

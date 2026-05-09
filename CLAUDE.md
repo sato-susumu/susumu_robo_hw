@@ -15,6 +15,7 @@
 | メインコンポーネント | `ODrive_S1.md` | モータコントローラ仕様 |
 | | `BotWheel_Explorer.md` | キット仕様、組立情報 |
 | | `RaspberryPi4.md` | 電源、GPIO、CAN設定 |
+| | `Livox_MID360.md` | 3D LiDARセンサ仕様 |
 | 電源系 | `Battery.md` | LiTime 24V LiFePO4、電圧設定 |
 | | `DCDC_Converter.md` | 5V変換、USB-PD |
 | | `LowVoltageDisconnect.md` | 過放電保護モジュール |
@@ -36,3 +37,4 @@
 - **BotWheel**: 171mm径ハブモーター、3200 CPRエンコーダ
 - **Raspberry Pi 4**: 5V 3A、SPI経由CAN HAT
 - **LiTime 24V 50Ah**: 8S LiFePO4、25.6V公称、BMS内蔵
+- **Livox MID-360**: 905nm LiDAR、360°×59°FOV、200,000点/秒、9-27V DC、IP67
