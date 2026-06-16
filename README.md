@@ -25,6 +25,11 @@
 - [ケーブル・配線規格](Cable_Wiring.md) - AWG規格、コネクタ型番
 - [フェルール (棒端子) 技術資料](Ferrule.md) - DIN 46228色コード、寸法規格
 
+### ソフトウェア・ROS2
+
+- [ROS2 差動二輪 リファレンスモデル](ROS2_DiffDrive_Reference.md) - ros2_control + diff_drive_controller の標準スタック、既存実装比較、本構成への適用、運動学モデル
+- [オープンハードウェア 差動二輪 リファレンス集 (10〜50kgクラス)](OpenHW_DiffDrive_References.md) - 同クラスのオープンHW差動二輪プロジェクト比較 (ホバーボード系・Linorobot2・MORPH等)
+
 ### 機械部品
 
 - [ネジ規格技術資料](Screw_Specs.md) - メトリックネジ寸法
