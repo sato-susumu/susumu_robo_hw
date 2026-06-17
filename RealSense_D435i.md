@@ -2,9 +2,6 @@
 
 > **引用元**: [Intel RealSense Depth Camera D435i 製品ページ](https://www.intelrealsense.com/depth-camera-d435i/)
 
-> [!NOTE]
-> 本資料は**検討段階**の資料です。採用が確定した場合はリポジトリ直下に移動します。
-
 ## 目次
 
 - [製品概要](#製品概要)
@@ -104,7 +101,7 @@ Intel RealSense D435iは、ステレオ方式の深度カメラ「D435」にIMU 
 > **引用元**: [Intel RealSense D435i 製品ページ](https://www.intelrealsense.com/depth-camera-d435i/) / [OpenELAB ガイド](https://openelab.io/blogs/learn/intel-realsense-d435i-depth-camera-guide-complete-overview)
 
 > [!NOTE]
-> USB 3.0帯域を必要とするため、Raspberry Pi等に接続する場合はUSB 3.0ポート (またはUSB 3.0対応ハブ) への直結が望ましい。[USB-HUB-7U](../USB-HUB-7U.md) はUSB 2.0仕様のため、本カメラの高帯域用途には非対応。
+> USB 3.0帯域を必要とするため、Raspberry Pi等に接続する場合はUSB 3.0ポート (またはUSB 3.0対応ハブ) への直結が望ましい。[USB-HUB-7U](USB-HUB-7U.md) はUSB 2.0仕様のため、本カメラの高帯域用途には非対応。
 
 ---
 
@@ -127,4 +124,4 @@ Intel RealSense D435iは、ステレオ方式の深度カメラ「D435」にIMU 
 - RGB-D点群による3D認識・物体検出
 - IMUを用いたVisual-Inertial Odometry / SLAM補助 (MID-360のLiDAR-SLAMとの統合検討)
 
-> **関連**: 確定構成の3D LiDAR [Livox MID-360](../Livox_MID360.md) との役割分担、および [逆さ・下向き 2D LiDAR 調査](Inverted_2D_LiDAR.md) と併せて低位置障害物検出の手段として比較検討。
+> **関連**: 確定構成の3D LiDAR [Livox MID-360](Livox_MID360.md) との役割分担、および [逆さ・下向き 2D LiDAR 調査](検討中/Inverted_2D_LiDAR.md) と併せて低位置障害物検出の手段として比較検討。

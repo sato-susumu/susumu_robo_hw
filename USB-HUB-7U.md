@@ -33,7 +33,7 @@ Waveshare USB-HUB-7Uは、工業グレードの7ポートUSBハブ。MTT (Multip
 > **引用元**: [Waveshare USB-HUB-7U 製品ページ](https://www.waveshare.com/usb-hub-7u.htm)
 
 > [!NOTE]
-> USB 2.0仕様 (最大480 Mbps) のため、高帯域を要する [Intel RealSense D435i](検討中/RealSense_D435i.md) (USB 3.0) のフルスペック動作には非対応。マウス・キーボード・低速シリアル・小型周辺機器の集約に向く。
+> USB 2.0仕様 (最大480 Mbps) のため、高帯域を要する [Intel RealSense D435i](RealSense_D435i.md) (USB 3.0) のフルスペック動作には非対応。マウス・キーボード・低速シリアル・小型周辺機器の集約に向く。
 
 ---
 

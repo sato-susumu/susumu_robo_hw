@@ -105,7 +105,7 @@ MINISFORUM Venus UM790 Proは、AMD Ryzen 9 7940HSを搭載した小型 (ミニ)
 ## 本構成での想定用途
 
 - ロボット母艦PC: ROS 2スタックの実行、センサ統合、SLAM、推論処理
-- 高帯域センサの接続先: [Intel RealSense D435i](検討中/RealSense_D435i.md) (USB 3.0)、[Livox MID-360](Livox_MID360.md) (2.5GbE経由)
+- 高帯域センサの接続先: [Intel RealSense D435i](RealSense_D435i.md) (USB 3.0)、[Livox MID-360](Livox_MID360.md) (2.5GbE経由)
 - 検討中の [Raspberry Pi 4](検討中/RaspberryPi4.md) / [Pi 5](検討中/RaspberryPi5_USB_PD_Power.md) に対し、より高い処理能力が必要な場合の代替・上位構成
 
 > **関連**: 給電は [Anker Prime Power Bank](Anker_Prime_PowerBank.md) ・ [24V系電源](検討中/LiTime_24V_LiFePO4.md) 、周辺機器接続は [USB-HUB-7U](USB-HUB-7U.md) を参照。

@@ -39,7 +39,6 @@
 | `検討中/README.md` | 検討中ドキュメントのインデックス |
 | `検討中/RaspberryPi4.md` | Raspberry Pi 4: 電源、GPIO、CAN設定 |
 | `検討中/Anker_PowerConf_S3.md` | 会議用スピーカーフォン |
-| `検討中/RealSense_D435i.md` | ステレオ深度カメラ + IMU (6DoF)、近距離障害物検出・RGB-D認識 |
 | `検討中/Inverted_2D_LiDAR.md` | 逆さ・下向き傾斜 2D LiDAR による低位置障害物検出の調査 |
 | `検討中/LiTime_24V_LiFePO4.md` | 24V系電源候補 (LiTime 24V LiFePO4) |
 | `検討中/RaspberryPi5_USB_PD_Power.md` | Pi 5 / USB-PD 電源変換 (Coolgear CG-PD200MAX) |
@@ -67,3 +66,5 @@
 - **Raspberry Pi 4** (検討中): 5V 3A、SPI経由CAN HAT
 - **LiTime 24V 50Ah** (検討中): 8S LiFePO4、25.6V公称、BMS内蔵
 - **Livox MID-360**: 905nm LiDAR、360°×59°FOV、200,000点/秒、9-27V DC、IP67
+- **Intel RealSense D435i**: ステレオ深度カメラ、深度FOV 87°×58°、IMU BMI055 (6DoF)、USB-C 3.1 Gen1
+- **MINISFORUM UM790 Pro**: Ryzen 9 7940HS (8C/16T)、DDR5最大64GB、USB4/2.5GbE、19V/120W

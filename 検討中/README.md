@@ -13,7 +13,6 @@
 
 ### センサ構成検討
 
-- [Intel RealSense D435i 技術資料](RealSense_D435i.md) - ステレオ深度カメラ + IMU (6DoF)。深度FOV 87°×58°、USB 3.0、近距離障害物検出・RGB-D認識
 - [逆さ・下向き傾斜 2D LiDAR による低位置障害物検出](Inverted_2D_LiDAR.md) - 取り付け手法・製品/ロボット事例・関連記事・論文の調査メモ (URL付き)
 
 ### 電源検討 (24V系)
