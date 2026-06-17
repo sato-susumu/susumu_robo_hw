@@ -9,11 +9,18 @@
 ### コンポーネント検討
 
 - [Raspberry Pi 4 技術資料](RaspberryPi4.md) - 電源仕様、GPIO、CAN設定
+- [MINISFORUM Venus UM790 Pro 技術資料](MINISFORUM_UM790Pro.md) - ミニPC (Ryzen 9 7940HS)、ロボット母艦PC候補。USB4/2.5GbE/19V給電
 - [Anker PowerConf S3 技術資料](Anker_PowerConf_S3.md) - 会議用スピーカーフォン仕様
+- [AmiVoice Front WT01 技術資料](AmiVoice_WT01.md) - 音声認識特化Bluetoothウェアラブルマイク (2マイクアレイ・ノイズキャンセリング)
 
 ### センサ構成検討
 
+- [Intel RealSense D435i 技術資料](RealSense_D435i.md) - ステレオ深度カメラ + IMU (6DoF)。深度FOV 87°×58°、USB 3.0、近距離障害物検出・RGB-D認識
 - [逆さ・下向き傾斜 2D LiDAR による低位置障害物検出](Inverted_2D_LiDAR.md) - 取り付け手法・製品/ロボット事例・関連記事・論文の調査メモ (URL付き)
+
+### 周辺機器・接続
+
+- [Waveshare USB-HUB-7U 技術資料](USB-HUB-7U.md) - 工業用7ポートUSB 2.0ハブ (MTT技術・ESD/過電圧保護・金属筐体)
 
 ### 電源検討 (24V系)
 
@@ -22,6 +29,10 @@
 - [LiTime 24V LiFePO4バッテリー](LiTime_24V_LiFePO4.md) - 24V系・大容量の電源候補 (50Ah/25Ah)、電圧設定
 - [Raspberry Pi 5 / USB-PD 電源変換](RaspberryPi5_USB_PD_Power.md) - Coolgear CG-PD200MAX (USB-PD 200W)、Pi 5/USB-PD給電、24Vバッテリーとの互換性
 - [CZH-LABS 24V 30A LVD Module](CZH-LABS_24V_LVD.md) - 24V LiFePO4 用の過放電保護 (LVD)、推奨設定・電圧-SOCチャート
+
+### 電源検討 (その他)
+
+- [Anker Prime Power Bank (27650mAh, 250W)](Anker_Prime_PowerBank.md) - 大容量・高出力モバイルバッテリー (USB-C PD 最大140W×2)、母艦PC/Pi の補助電源候補
 
 ### ソフトウェア・ROS2
 
