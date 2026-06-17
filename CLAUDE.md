@@ -19,11 +19,16 @@
 | メインコンポーネント | `ODrive_S1.md` | モータコントローラ仕様 |
 | | `BotWheel_Explorer.md` | キット仕様、組立情報 |
 | | `Livox_MID360.md` | 3D LiDARセンサ仕様 |
+| | `RealSense_D435i.md` | ステレオ深度カメラ + IMU (6DoF)、近距離障害物検出・RGB-D認識 |
+| | `MINISFORUM_UM790Pro.md` | ロボット母艦PC (Ryzen 9 7940HS)、USB4/2.5GbE/19V給電 |
+| | `AmiVoice_WT01.md` | 音声認識特化Bluetoothウェアラブルマイク (2マイクアレイ・ノイズキャンセリング) |
 | 電源系 | `Battery.md` | BotWheel Explorer Kit 標準電源 (DeWalt 20V)、マキタ18V、電圧設定 |
 | | `DCDC_Converter.md` | 5V変換 (Buckコンバータ, Pi 4向け) |
 | | `LowVoltageDisconnect.md` | 過放電保護モジュール (OONO 18V) |
-| 配線・端子 | `Cable_Wiring.md` | AWG規格、コネクタ |
+| | `Anker_Prime_PowerBank.md` | Anker Prime 27650mAh/250W モバイルバッテリー (補助電源) |
+| 配線・端子・接続 | `Cable_Wiring.md` | AWG規格、コネクタ |
 | | `Ferrule.md` | 棒端子、DIN 46228 |
+| | `USB-HUB-7U.md` | Waveshare 工業用7ポートUSB 2.0ハブ (MTT・ESD/過電圧保護) |
 | 機械部品 | `Screw_Specs.md` | メトリックネジ規格 |
 | インデックス | `README.md` | 全ドキュメントへのリンク |
 
@@ -33,13 +38,9 @@
 |----------|------|
 | `検討中/README.md` | 検討中ドキュメントのインデックス |
 | `検討中/RaspberryPi4.md` | Raspberry Pi 4: 電源、GPIO、CAN設定 |
-| `検討中/MINISFORUM_UM790Pro.md` | ミニPC (Ryzen 9 7940HS): ロボット母艦PC候補、USB4/2.5GbE/19V給電 |
 | `検討中/Anker_PowerConf_S3.md` | 会議用スピーカーフォン |
-| `検討中/AmiVoice_WT01.md` | 音声認識特化Bluetoothウェアラブルマイク (2マイクアレイ・ノイズキャンセリング) |
 | `検討中/RealSense_D435i.md` | ステレオ深度カメラ + IMU (6DoF)、近距離障害物検出・RGB-D認識 |
 | `検討中/Inverted_2D_LiDAR.md` | 逆さ・下向き傾斜 2D LiDAR による低位置障害物検出の調査 |
-| `検討中/USB-HUB-7U.md` | Waveshare 工業用7ポートUSB 2.0ハブ (MTT・ESD/過電圧保護) |
-| `検討中/Anker_Prime_PowerBank.md` | Anker Prime 27650mAh/250W モバイルバッテリー (補助電源候補) |
 | `検討中/LiTime_24V_LiFePO4.md` | 24V系電源候補 (LiTime 24V LiFePO4) |
 | `検討中/RaspberryPi5_USB_PD_Power.md` | Pi 5 / USB-PD 電源変換 (Coolgear CG-PD200MAX) |
 | `検討中/CZH-LABS_24V_LVD.md` | 24V系 過放電保護 (CZH-LABS 24V 30A LVD) |

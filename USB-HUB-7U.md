@@ -2,9 +2,6 @@
 
 > **引用元**: [Waveshare USB-HUB-7U 製品ページ](https://www.waveshare.com/usb-hub-7u.htm) / [Waveshare Wiki](https://www.waveshare.com/wiki/USB-HUB-7U)
 
-> [!NOTE]
-> 本資料は**検討段階**の資料です。採用が確定した場合はリポジトリ直下に移動します。
-
 ## 目次
 
 - [製品概要](#製品概要)
@@ -36,7 +33,7 @@ Waveshare USB-HUB-7Uは、工業グレードの7ポートUSBハブ。MTT (Multip
 > **引用元**: [Waveshare USB-HUB-7U 製品ページ](https://www.waveshare.com/usb-hub-7u.htm)
 
 > [!NOTE]
-> USB 2.0仕様 (最大480 Mbps) のため、高帯域を要する [Intel RealSense D435i](RealSense_D435i.md) (USB 3.0) のフルスペック動作には非対応。マウス・キーボード・低速シリアル・小型周辺機器の集約に向く。
+> USB 2.0仕様 (最大480 Mbps) のため、高帯域を要する [Intel RealSense D435i](検討中/RealSense_D435i.md) (USB 3.0) のフルスペック動作には非対応。マウス・キーボード・低速シリアル・小型周辺機器の集約に向く。
 
 ---
 
@@ -76,7 +73,7 @@ Waveshare USB-HUB-7Uは、工業グレードの7ポートUSBハブ。MTT (Multip
 
 ## 本構成での想定用途
 
-- ロボット母艦 [MINISFORUM UM790 Pro](MINISFORUM_UM790Pro.md) / [Raspberry Pi](RaspberryPi4.md) に対し、多数のUSBデバイス (マイク・センサ・シリアル変換器等) を集約
+- ロボット母艦 [MINISFORUM UM790 Pro](MINISFORUM_UM790Pro.md) / [Raspberry Pi](検討中/RaspberryPi4.md) に対し、多数のUSBデバイス (マイク・センサ・シリアル変換器等) を集約
 - 取付穴・金属筐体により車体への固定が容易
 - ESD/過電圧保護で移動体環境での安定動作を期待
 

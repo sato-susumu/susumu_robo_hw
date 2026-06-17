@@ -104,7 +104,7 @@ Intel RealSense D435iは、ステレオ方式の深度カメラ「D435」にIMU 
 > **引用元**: [Intel RealSense D435i 製品ページ](https://www.intelrealsense.com/depth-camera-d435i/) / [OpenELAB ガイド](https://openelab.io/blogs/learn/intel-realsense-d435i-depth-camera-guide-complete-overview)
 
 > [!NOTE]
-> USB 3.0帯域を必要とするため、Raspberry Pi等に接続する場合はUSB 3.0ポート (またはUSB 3.0対応ハブ) への直結が望ましい。検討中の [USB-HUB-7U](USB-HUB-7U.md) はUSB 2.0仕様のため、本カメラの高帯域用途には非対応。
+> USB 3.0帯域を必要とするため、Raspberry Pi等に接続する場合はUSB 3.0ポート (またはUSB 3.0対応ハブ) への直結が望ましい。[USB-HUB-7U](../USB-HUB-7U.md) はUSB 2.0仕様のため、本カメラの高帯域用途には非対応。
 
 ---
 
