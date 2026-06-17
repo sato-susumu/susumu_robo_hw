@@ -69,6 +69,23 @@ LiDAR色付き点群が目的なら、写真品質だけでなく「連続給電
 | Trisio Lite 2 | 1/2.3型単眼回転 | 8K 32MP | 動画向きではない | Wi-Fi/USB | なし | 150g | 静止バーチャルツアー用。移動ロボット動画には不向き。 |
 | XPhase Pro S2/X2 | 多眼 | 134MP/200MP級 | なし | 独自 | なし | 248g級 | 最高級静止画向け。ロボット常時映像には不向き。 |
 
+## ROS2/ROS ドライバ一覧
+
+GitHubのスター数・最終更新日 (`pushed_at`) は調査日 2026-06-17 時点でGitHub APIから取得した値。スター数・更新日は時間とともに変化する点に注意。「ROS対応」はリポジトリのブランチ構成・READMEの記載に基づく。
+
+| リポジトリ | 対応カメラ | ROS対応 (distro) | ★ | 最終更新 | ライセンス | 備考 |
+| --- | --- | --- | ---: | --- | --- | --- |
+| [ai4ce/insta360_ros_driver](https://github.com/ai4ce/insta360_ros_driver) | Insta360 X2/X3 (X4は[issueあり](https://github.com/ai4ce/insta360_ros_driver/issues/13)) | ROS2 Humble (Ubuntu 22.04)、Noetic、ros2 各ブランチ | 246 | 2026-06-03 | Apache-2.0 | 360ドライバで最もスターが多く更新も活発。dual-lensモード+USB=Android設定が必須。Insta360 SDK (2025-04-23以降) を別途申請。dual fisheye → equirectangular/rectilinear変換とIMU処理を内蔵。 |
+| [hzlbbfrog/insta360_ros2](https://github.com/hzlbbfrog/insta360_ros2) | Insta360 各種 | ROS2 (main) | 3 | 2024-12-24 | Apache-2.0 | 別系統のInsta360 ROS2ドライバ。小規模。 |
+| [RobotiXX/insta360_camera_ros](https://github.com/RobotiXX/insta360_camera_ros) | Insta360 X4 | ROS2 (webcam mode + `camera_ros`) | 3 | 2025-06-18 | MIT | X4をwebcam modeで `camera_ros` 経由でROS2に入れる構成例。 |
+| [stella-cv/theta_driver](https://github.com/stella-cv/theta_driver) | RICOH THETA V/Z1 | ROS / ROS2 Foxy (`ros`/`ros2` ブランチ) | 26 | 2023-09-03 | MIT | THETA系ROS2ドライバでスター最多。`libuvc-theta` 依存。Docker対応。Stella VSLAM系の資産。 |
+| [madjxatw/ricoh_theta_ros](https://github.com/madjxatw/ricoh_theta_ros) | RICOH THETA V/Z1 | **ROS1** (catkin) | 17 | 2023-04-24 | - | ROS1 (catkin) パッケージ。`libuvc-theta`/`v4l2loopback`/`Equirec2Perspec`/`libptp` をsubmodule同梱。ROS2化には移植が必要。 |
+| [hijimasa/ros2_theta_cam](https://github.com/hijimasa/ros2_theta_cam) | RICOH THETA V | ROS2 (READMEにdistro明記なし) | 5 | 2025-10-20 | Apache-2.0 | THETA系で比較的新しい更新。`gstthetauvc`/`libuvc` (nickel110 fork) 依存。2K/4K切替・シリアル指定対応。 |
+| [itsuka-to/ros2_thetav](https://github.com/itsuka-to/ros2_thetav) | RICOH THETA V | ROS2 Dashing (Ubuntu 18.04)、Humbleブランチあり | 5 | 2022-11-14 | - | 非公式。GStreamer + `libuvc-theta` 依存。Live-Streaming-Mode必須。 |
+| [leo-drive/color-point-cloud](https://github.com/leo-drive/color-point-cloud) | (全天球専用ではない) | ROS2 (main) | 82 | 2024-01-15 | - | 点群+複数カメラ画像から色付き点群を生成するツール。色付け処理の参考実装。 |
+
+> **補足**: `madjxatw/ricoh_theta_ros` のみROS1 (catkin) で、他はROS2。THETA系はいずれも `libuvc-theta` 系の修正libuvc/GStreamer/v4l2loopbackが絡み、Insta360系よりLinuxセットアップの手間が増えやすい。
+
 ## ROS2でよく使われる/扱いやすい機種
 
 ### Insta360 X2/X3/X4系
@@ -194,15 +211,23 @@ v = (pi/2 - latitude) / pi * image_height
 
 ### ROS2/実装
 
-- Insta360 ROS driver: https://github.com/ai4ce/insta360_ros_driver
+- Insta360 ROS driver (ai4ce): https://github.com/ai4ce/insta360_ros_driver
+- Insta360 ROS2 driver (hzlbbfrog): https://github.com/hzlbbfrog/insta360_ros2
 - Insta360 X4 + camera_ros事例: https://github.com/RobotiXX/insta360_camera_ros
 - RICOH THETA ROS2 camera: https://github.com/hijimasa/ros2_theta_cam
-- RICOH THETA V ROS2 Humble: https://github.com/itsuka-to/ros2_thetav
-- RICOH THETA ROS driver: https://github.com/stella-cv/theta_driver
-- RICOH THETA ROS package notes: https://github.com/madjxatw/ricoh_theta_ros
+- RICOH THETA V ROS2 (Dashing/Humble): https://github.com/itsuka-to/ros2_thetav
+- RICOH THETA ROS/ROS2 driver: https://github.com/stella-cv/theta_driver
+- RICOH THETA ROS1 package notes: https://github.com/madjxatw/ricoh_theta_ros
 - ROS2 + THETA V + RViz2事例: https://community.theta360.guide/t/ricoh-theta-live-streaming-360-object-detect-yolo-in-ros2-rviz2-and-kr260/10207
 - ROS2 point cloud colorize: https://github.com/leo-drive/color-point-cloud
 - OmniColor paper: https://arxiv.org/html/2404.04693v2
+
+### ROS2ドライバの感想・レビュー・解説
+
+- ai4ce/insta360_ros_driver 解説 (DeepWiki、構成/インストール/キャリブレーション解説): https://deepwiki.com/ai4ce/insta360_ros_driver
+- ai4ce driver X4互換性の議論 (Issue #13): https://github.com/ai4ce/insta360_ros_driver/issues/13
+- ai4ce driver 処理速度/出力周波数の議論 (Issue #20、RTX4090でも周波数変動の報告): https://github.com/ai4ce/insta360_ros_driver/issues/20
+- THETA V を ROS2 + RViz2 + YOLO + KR260 でライブ配信した実践レポート (THETA Vは扱いやすいとの所感): https://community.theta360.guide/t/ricoh-theta-live-streaming-360-object-detect-yolo-in-ros2-rviz2-and-kr260/10207
 
 ### 公式/スペック
 
