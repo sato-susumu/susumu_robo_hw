@@ -18,6 +18,7 @@
 
 ### 電源・電気系
 
+- [電源接続図 (BotWheel Explorer ベース)](Power_Wiring.md) - 20V 系 (モータ/LiDAR/補機) と 19V 系 (PC 専用) の 2 系統独立構成、mermaid 接続図
 - [バッテリー技術資料](Battery.md) - LiTime 24V LiFePO4仕様、電圧設定、ヒューズ
 - [低電圧カットオフモジュール (LVD) 技術資料](LowVoltageDisconnect.md) - 過放電保護モジュール (18V/24V)
 - [DC-DCコンバータ技術資料](DCDC_Converter.md) - Raspberry Pi用電源変換、USB-PD

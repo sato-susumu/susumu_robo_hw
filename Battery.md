@@ -13,7 +13,7 @@
 7. [利用ヒューズ](#利用ヒューズ)
 8. [ブレードヒューズ色別規格](#ブレードヒューズ-atoatc-色別規格)
 
-> **関連資料**: [低電圧カットオフモジュール (LVD) 技術資料](LowVoltageDisconnect.md)
+> **関連資料**: [低電圧カットオフモジュール (LVD) 技術資料](LowVoltageDisconnect.md) / [電源接続図 (BotWheel Explorer ベース)](Power_Wiring.md)
 >
 > **検討中の電源案**: [LiTime 24V LiFePO4バッテリー (検討中)](検討中/LiTime_24V_LiFePO4.md)
 
