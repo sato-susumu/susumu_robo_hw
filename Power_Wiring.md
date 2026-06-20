@@ -56,15 +56,18 @@ flowchart LR
     SW{{"2.5GbE ポート<br/>(UM790 Pro 内蔵)"}}
 
     %% --- 電源ライン (太) ---
-    BATT ==20V==> FUSE ==> LVD ==> BUS
-    BUS ==20V==> ODL
-    BUS ==20V==> ODR
-    BUS ==9-27V==> MID
-    BUS ==10-32V==> DCDC
-    DCDC ==5V==> HUB
-    HUB ==5V==> WT01
+    BATT ==>|"20V"| FUSE
+    FUSE ==> LVD
+    LVD ==> BUS
+    BUS ==>|"20V"| ODL
+    BUS ==>|"20V"| ODR
+    BUS ==>|"9〜27V"| MID
+    BUS ==>|"10〜32V"| DCDC
+    DCDC ==>|"5V"| HUB
+    HUB ==>|"5V"| WT01
 
-    PB ==USB-C PD==> TRIG ==19V==> PC
+    PB ==>|"USB-C PD"| TRIG
+    TRIG ==>|"19V"| PC
 
     %% --- モータ接続 ---
     ODL --- MOTL
@@ -73,12 +76,12 @@ flowchart LR
     ODR --- ENCR
 
     %% --- データ系 (細) ---
-    PC -. USB3.0 .-> D435
-    PC -. USB2.0 .-> HUB
+    PC -.->|"USB 3.0"| D435
+    PC -.->|"USB 2.0"| HUB
     PC === SW
-    SW -. Ethernet .-> MID
-    PC -. CAN 250kbps<br/>(USBアイソレータ経由) .-> ODL
-    PC -. CAN 250kbps .-> ODR
+    SW -.->|"Ethernet"| MID
+    PC -.->|"CAN 250kbps (USB絶縁)"| ODL
+    PC -.->|"CAN 250kbps"| ODR
 
     classDef power fill:#fee,stroke:#c33,color:#000
     classDef logic fill:#eef,stroke:#33c,color:#000
